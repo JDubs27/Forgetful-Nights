@@ -35,7 +35,7 @@ a:hover {
 
 @font-face {
   font-family: 'Neonderthaw';
-  src: url('Practice-Project/fonts/Neonderthaw-Regular.ttf') format('truetype');
+  src: url('/Practice-Project/fonts/Neonderthaw-Regular.ttf') format('truetype');
 }
 
 h1 {
