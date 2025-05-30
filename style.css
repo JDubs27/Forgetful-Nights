@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   background-color: #1A1A1A;
   color: #EDEDED;
+  text-align: center;
 }
 
 img {
@@ -34,12 +35,13 @@ a:hover {
 
 @font-face {
   font-family: 'Neonderthaw';
-  src: url('C:\Users\Cambr\OneDrive\Desktop\Project\fonts\Neonderthaw-Regular.ttf') format('truetype');
+  src: url('Practice-Project/fonts/Neonderthaw-Regular.ttf') format('truetype');
 }
 
 h1 {
   font-family: 'Neonderthaw', sans-serif;
   color: #BB86FC;
   text-shadow: 0 0 10px #BB86FC
+  text-align: center;
 }
 
