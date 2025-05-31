@@ -24,12 +24,16 @@ h2 {
     text-align: center;
 }
 
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
 nav a {
     color: #03DAC6; /*Teal*/
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease, text-shadow 0.3s ease;
-    text-align: center;
 }
 
 nav a:hover{
