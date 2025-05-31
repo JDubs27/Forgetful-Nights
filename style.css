@@ -29,6 +29,7 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-align: center;
 }
 
 nav a:hover{
@@ -40,4 +41,9 @@ p {
     font-size: 16px;
     line-height: 1.5;
     padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
 }
