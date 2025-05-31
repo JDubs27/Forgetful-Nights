@@ -1,5 +1,9 @@
 body {
     background-color: #1A1A1A; /*Matte Black*/
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #EDEDED; /*Soft White*/
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -24,10 +28,12 @@ nav a {
     color: #03DAC6; /*Teal*/
     text-decoration: none;
     margin: 0 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 nav a:hover{
     color: #FFB300; /*Amber on hover*/
+    text-shadow: 0 0 8px #FFB300; /*Amber Glow*/
 }
 
 p {
